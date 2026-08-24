@@ -8,8 +8,8 @@ on:
     workflows: ["Ubuntu"]
     types:
       - completed
+  workflow_dispatch:
   #workflow_call:
-  #workflow_dispatch:
   #repository_dispatch:
   #  types: [ build-linux-flavors ]
 
